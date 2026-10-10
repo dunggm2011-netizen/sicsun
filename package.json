@@ -1,0 +1,15 @@
+{
+  "name": "sicbosunwin",
+  "version": "1.0.0",
+  "main": "sicbosunwin.js",
+  "scripts": {
+    "start": "node sibosunwin.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
