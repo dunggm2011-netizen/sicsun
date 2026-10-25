@@ -1,0 +1,11 @@
+# render.yaml
+services:
+  - type: web
+    name: sunwin-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node sunwin.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.0
